@@ -1,0 +1,67 @@
+Smart city Project
+
+
+Andrew is planning to visit Brisbane city for the first time and he contacted one of his
+friends Susan, a software vendor, who lives in Brisbane to recommend places to visit.
+Susan realized that there is no centralized system she could direct Andrew to gather
+information on parks, museums, restaurants etc. in Brisbane city.
+She thought of developing a web based system which stores information about
+Brisbane city. She knew one of the IFB299 teaching team member who asked her to
+put her system requirements in writing.
+The following is a brief description of these requirements. The IFB299 teaching team
+wishes your team to develop a system meeting these requirements. The product
+owner(s) of your team are allowed to add/update/delete these requirements so that it
+improves the functionality of the system overall.
+Susan thinks that the system should cater three types of users; tourists, students,
+businessman. When a user logs in, they can view primarily relevant information based
+on their user type as described later on. Each type of user is also allowed to view
+information related to other user types but only temporarily while remaining logged in
+the system in his/her current session.
+Any new user who is visiting the web system should be able to create a user account
+(student, tourist and businessman.) An existing user should be able to log into the
+system via a username and password.
+Anyone should be able to visit the web based system by navigating through their
+browsers. The welcome page should provide facilities to create new user accounts
+with types that of student, tourist or businessman.
+There is also a fourth type of user namely an administrator. An administrator user
+account is a special account. Therefore, an administrator user account can be created
+using a separate web page.
+Each new user must provide his/her name, a unique username, and a password to
+create an account in the system. The system should also be capable of storing
+additional user information such as phone number, email address and residential
+address if a user wish to provide those details at the time of user registration.
+The functionalities required in the system based on each user type is as below.
+Administrator
+An administrator user account can be created by another administrator only. Initially,
+Susan will be the only administrator.
+The administrator role is responsible for creating/modifying all the data for the city.
+Data for colleges, industries, libraries and hotels is separate from city information.
+City information consists of data for parks, zoos, museums, malls, restaurants and city
+map.
+An administrator should be able to create following information in the system.
+• Colleges: college name, address, departments and email address
+• Libraries: library name, address, phone number and email address
+• Industries: industry name, address, industry type and email address
+• Hotels: hotel name, address, phone and email address
+• Parks: park name, address, phone and email address
+• Zoos: zoo name, address, phone and email address
+• Museums: museum name, address, phone and email address
+• Restaurants: restaurant name, address, phone and email address
+• Malls: mall name, address, phone and email address
+An administrator should also be able to upload a map of the city to the system.
+Tourist
+When a tourist logs into the system, he should be able to view hotels and city
+information.
+Student
+When a student logs into the system, he should be able to view colleges, libraries and
+city information.
+Businessman
+When a businessman logs into the system, he should be able to view hotels, industries
+and city information.
+Other Requirements
+System should also be able to provide similar information about other Australian
+cities such as Sydney, Melbourne, Adelaide, Perth, Canberra, Hobart, Darwin etc.
+It is also required that your team design the system in a way that it can be extended in
+the future to cater more requirements such as adding information on city bus services,
+metro rail, government offices, courier services, travel services, education services,
+health services, business services etc.
